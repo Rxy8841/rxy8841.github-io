@@ -13,6 +13,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!--Bootstrap -->
+        <script src="css/bootstrap.css"></script>
+        <script src="js/bootstrap.js"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
@@ -28,8 +31,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about_me">This is ME!</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Accomplishments</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#family_tree">Family Tree</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#photo_gallery">Photo Gallery</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#final_words">Final Words</a></li>
                     </ul>
@@ -48,7 +52,7 @@
         </header>
 
 
-        <!-- Services-->
+        <!-- About me-->
         <section class="page-section" id="about_me">
             <div class="container">
                 <div class="text-center">
@@ -67,17 +71,177 @@
         </section>
 
 
+        <!-- Event Time line-->
+        <section class="page-section bg-light" id="events">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Time Line of Events</h2>
+                    <h3 class="section-subheading text-muted">Special Events of my Life</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Born in CHINA</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">My begginings</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">Cool things</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">fsdfdsfdsfsdfsf</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image" id="portfolioModal6"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2012</h4>
+                                <h4 class="subheading">Met my Wife</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Met in school</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2014</h4>
+                                <h4 class="subheading">Came to america</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                That is  
+                                <br />
+                                My 
+                                <br />
+                                Story
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Family Tree-->
+        <section class="page-section" id="family_tree">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Family tree</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <ul class="timeline"></ul>
+
+                <div class="tree" id="FamilyTreeDiv">
+                    <ul>
+                        <li>
+                            <div>
+                                <span class="female">Great Grandma</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="female">Gramps</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <span class="male">leo Liu</span>
+                                        <span class="spacer"></span>
+                                        <span class="female">Auntie</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <span class="female">Jessica</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="female">Tiffany</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="female">Wendy</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="male">Frankie</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="female">Joy</span>
+                                        <span class="spacer"></span>
+                                        <span class="male">Johnny</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <span class="male">Rickie</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="male">Ronald</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="male">Raymond</span>
+                                        <span class="spacer"></span>
+                                        <span class="female">Auntie</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <span class="male">Ryan</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="female">Abby</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>      
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Hobbies-->
         <section class="page-section bg-light" id="hobbies">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Hobbies and Events</h2>
+                    <h2 class="section-heading text-uppercase">Hobbies</h2>
                     <h3 class="section-subheading text-muted">Here are some cool things I got to do</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="js-scroll-trigger" data-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -158,84 +322,19 @@
                                 <div class="portfolio-caption-subheading text-muted">Photography</div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-            </div>
-        </section>
-
-
-
-        <!-- Family Tree-->
-        <section class="page-section" id="family_tree">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Family tree</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </section>
 
 
 
         <!-- photo gallery-->
-        <section class="page-section bg-light" id="photo_gallery">
+        <section class="page-section" id="photo_gallery">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Photos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"><Lorem ipsum dolor sit amet consectetur.></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
@@ -278,7 +377,7 @@
 
 
         <!-- Contact-->
-        <section class="page-section" id="final_words">
+        <section class="page-section bg-light" id="final_words">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Final Words</h2>
