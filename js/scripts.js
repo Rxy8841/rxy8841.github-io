@@ -54,3 +54,45 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+        }
+    });
+    if ($(".filter-button").removeClass("active")) {
+        $(this).removeClass("active");
+    }
+    $(this).addClass("active");
+
+
+
+    var adventure = ["mom's pictures 194.JPG", "mom's pictures 197.JPG","mom's pictures 478.JPG"]
+    var loop;
+    adventure.forEach((name,i) =>{
+        var div = document.createElement('div');
+        div.className = "gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter adventure"
+
+        var img = document.createElement("img")
+        img.className = "img-responsive"
+        img.src = "assets/img/adventure/" + name
+        img.style = "width:365px; height:365px;"
+
+        div.appendChild(img)
+        var container = document.getElementById('pgallery');
+        container.appendChild(div);
+    })
+
+});
