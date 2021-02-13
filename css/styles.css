@@ -10610,11 +10610,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   border-color: #94a0b4;
   }
 
-
   /*Bubble link: https://projects.verou.me/bubbly/ */
   .speech-bubble-down {
     position: relative;
-    background: #00aabb;
+    background: #86cfbc;
     border-radius: .4em;
   }
   
@@ -10626,7 +10625,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: #00aabb;
+    border-top-color: #86cfbc;
     border-bottom: 0;
     border-left: 0;
     margin-left: -10px;
@@ -10635,7 +10634,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
   .speech-bubble-down-right {
     position: relative;
-    background: #00aabb;
+    background: #86cfbc;
     border-radius: .4em;
   }
   
@@ -10647,7 +10646,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: #00aabb;
+    border-top-color: #86cfbc;
     border-bottom: 0;
     border-right: 0;
     margin-left: -10px;
@@ -10658,7 +10657,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
   .speech-bubble-right {
     position: relative;
-    background: #ab00bb;
+    background: #86cfbc;
     border-radius: .4em;
   }
   
@@ -10670,7 +10669,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-left-color: #ab00bb;
+    border-left-color: #86cfbc;
     border-right: 0;
     border-bottom: 0;
     margin-top: -10px;
@@ -10679,7 +10678,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
   .speech-bubble-up {
     position: relative;
-    background: #00bb5d;
+    background: #86cfbc;
     border-radius: .4em;
   }
   
@@ -10691,7 +10690,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-bottom-color: #00bb5d;
+    border-bottom-color: #86cfbc;
     border-top: 0;
     border-left: 0;
     margin-left: -10px;
@@ -10700,7 +10699,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
   .speech-bubble-left {
     position: relative;
-    background: #00aabb;
+    background: #86cfbc;
     border-radius: .4em;
   }
   
@@ -10712,7 +10711,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-right-color: #00aabb;
+    border-right-color: #86cfbc;
     border-left: 0;
     border-bottom: 0;
     margin-top: -10px;
@@ -10720,13 +10719,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
 
+  /*More thoughts table design*/
   .speech-list {
     position: relative;
-    background: #00aabb;
+    background: #86cfbc;
+    height: 70%;
+    width: 80%;
     border-radius: .4em;
   }
-
-
 
   table {
     font-family: arial, sans-serif;
@@ -10738,8 +10738,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   td, th {
     text-align: center;
     padding: 8px;
+    width: 33.33%;
   }
-
 
   final_word {
     position: relative;
@@ -10748,6 +10748,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
 
+
+  /*Slide show for the picture gallery*/
   .peopleCarouselImg img {
     width: auto;
     height: 600px;
@@ -10810,4 +10812,91 @@ https://bootsnipp.com/snippets/GzKKE*/
 .gallery_product
 {
     margin-bottom: 30px;
+}
+
+
+
+
+/*http://jsfiddle.net/k7yxtpc7/3/  link to the circle container
+*/
+.transparent_square{
+	width: 70%;
+	height: auto;
+  margin-left: 14%;
+}
+
+.circle_container{
+  margin-left: 25%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+
+}
+
+.central_text{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.moon_container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.moon{
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 175%;
+}
+
+.moon_container.moon1{
+	transform: translate(0%, -50%);
+}
+.moon_container.moon2{
+	transform: translate(0%, 0%) rotate(45deg);
+}
+.moon_container.moon3{
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+.moon_container.moon4{
+	transform: translate(-100%, 0%) rotate(135deg);
+}
+.moon_container.moon5{
+	transform: translate(-100%, -50%) rotate(180deg);
+}
+.moon_container.moon6{
+	transform: translate(-100%, -50%) rotate(225deg);
+}
+.moon_container.moon7{
+	transform: translate(-50%, -50%) rotate(270deg);
+}
+.moon_container.moon8{
+	transform: translate(0%, -50%) rotate(315deg);
+}
+
+.moon.moon2{
+	transform: rotate(-45deg);
+}
+.moon.moon3{
+	transform: rotate(-90deg);
+}
+.moon.moon4{
+	transform: rotate(-135deg);
+}
+.moon.moon5{
+	transform: rotate(-180deg);
+}
+.moon.moon6{
+	transform: rotate(-225deg);
+}
+.moon.moon7{
+	transform: rotate(-270deg);
+}
+.moon.moon8{
+	transform: rotate(-315deg);
 }

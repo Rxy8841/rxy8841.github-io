@@ -78,12 +78,59 @@ $(document).ready(function(){
     $(this).addClass("active");
 
 
-
+    // Put pictures into the asset/img/correct folder. Then add that picture name here...
+    // I know its bad, But I can run a python script to do it if you just want to put pictures into the slide show and into the correct folders
+    //Create more folders if you need too
     var adventure = ["mom's pictures 194.JPG", "mom's pictures 197.JPG","mom's pictures 478.JPG"]
-    var loop;
+    var family = ["mom's pictures 194.JPG", "mom's pictures 197.JPG","mom's pictures 478.JPG"]
+    var gardening = ["mom's pictures 194.JPG", "mom's pictures 197.JPG","mom's pictures 478.JPG"]
+    var career = ["mom's pictures 194.JPG", "mom's pictures 197.JPG","mom's pictures 478.JPG"]
+
     adventure.forEach((name,i) =>{
         var div = document.createElement('div');
         div.className = "gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter adventure"
+
+        var img = document.createElement("img")
+        img.className = "img-responsive"
+        img.src = "assets/img/adventure/" + name
+        img.style = "width:365px; height:365px;"
+
+        div.appendChild(img)
+        var container = document.getElementById('pgallery');
+        container.appendChild(div);
+    })
+
+    family.forEach((name,i) =>{
+        var div = document.createElement('div');
+        div.className = "gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter family"
+
+        var img = document.createElement("img")
+        img.className = "img-responsive"
+        img.src = "assets/img/adventure/" + name
+        img.style = "width:365px; height:365px;"
+
+        div.appendChild(img)
+        var container = document.getElementById('pgallery');
+        container.appendChild(div);
+    })
+
+    gardening.forEach((name,i) =>{
+        var div = document.createElement('div');
+        div.className = "gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gardening"
+
+        var img = document.createElement("img")
+        img.className = "img-responsive"
+        img.src = "assets/img/adventure/" + name
+        img.style = "width:365px; height:365px;"
+
+        div.appendChild(img)
+        var container = document.getElementById('pgallery');
+        container.appendChild(div);
+    })
+
+    career.forEach((name,i) =>{
+        var div = document.createElement('div');
+        div.className = "gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter career"
 
         var img = document.createElement("img")
         img.className = "img-responsive"
